@@ -13,3 +13,5 @@ pip install --upgrade wheel pip setuptools
 pip install -r requirements.txt
 
 webdrivermanager $browser
+
+python -m robot -d output -P libraries -P resources -P variables --logtitle "Task log" tasks/
